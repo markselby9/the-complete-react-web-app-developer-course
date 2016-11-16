@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "hello-react",
   "version": "1.0.0",
   "description": "Simple react app",
   "main": "index.js",
@@ -17,6 +17,7 @@
     "babel-core": "^6.5.1",
     "babel-loader": "^6.2.2",
     "babel-preset-es2015": "^6.5.0",
+    "babel-preset-es2016": "^6.16.0",
     "babel-preset-react": "^6.5.0",
     "webpack": "^1.12.13"
   }
