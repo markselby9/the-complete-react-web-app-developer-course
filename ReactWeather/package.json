@@ -9,9 +9,11 @@
   "author": "Andrew Mead",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.15.2",
     "express": "^4.13.4",
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-router": "^3.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.5.1",
