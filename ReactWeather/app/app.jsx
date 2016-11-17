@@ -6,6 +6,11 @@ var Weather = require('./components/Weather');
 var About = require('./components/About');
 var More = require('./components/More');
 
+// load css by require
+//load Foundation
+require('style!css!foundation-sites/dist/foundation.min.css');
+$(document).foundation();
+
 ReactDOM.render(
     <Router history={hashHistory}>
         {/*/root router*/}
