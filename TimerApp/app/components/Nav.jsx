@@ -1,5 +1,5 @@
 var React = require('react');
-var {Link} = require('react-router');
+var {Link, IndexLink} = require('react-router');
 
 var Nav = React.createClass({
     render: function () {
@@ -9,9 +9,9 @@ var Nav = React.createClass({
                     {/*<div className="top-bar-title">Timer</div>*/}
                     <ul className="menu">
                         <li className="menu-text">Timer</li>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/timer">Timer</Link></li>
-                        <li><Link to="/countdown">Countdown</Link></li>
+                        <li><IndexLink to="/" activeClassName="activeLink">Home</IndexLink></li>
+                        <li><Link to="/timer" activeClassName="activeLink">Timer</Link></li>
+                        <li><Link to="/countdown" activeClassName="activeLink">Countdown</Link></li>
                     </ul>
                 </div>
             </div>
