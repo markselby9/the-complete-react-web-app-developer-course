@@ -18,7 +18,6 @@ define('Countdown Form', () => {
         countdownForm.refs.seconds.value = '109';
         var form = TestUtils.findRenderedDOMComponentWithTag(countdownForm, 'form');
         TestUtils.Simulate.submit(form);
-        console.log(3);
 
         expect(spy).toHaveBeenCalledWith(109);
     });
