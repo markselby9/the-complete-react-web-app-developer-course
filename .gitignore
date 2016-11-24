@@ -38,6 +38,6 @@ build/Release
 .node_repl_history
 
 .DS_Store
-
 .idea
+node_modules
 
