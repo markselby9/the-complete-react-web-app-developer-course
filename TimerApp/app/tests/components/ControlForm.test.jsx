@@ -1,4 +1,4 @@
-var CountdownForm = require('CountdownForm');
+var CountdownForm = require('ControlStartForm');
 var expect = require('expect');
 var React = require('react');
 var ReactDOM = require('react-dom');
