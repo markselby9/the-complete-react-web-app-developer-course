@@ -7,7 +7,7 @@ var TodoApp = React.createClass({
             todos: [
                 {id:1, text:"item 1"},
                 {id:2, text:"item 2"},
-                {id:2, text:"item 3"},
+                {id:3, text:"item 3"},
             ]
         };
     },
