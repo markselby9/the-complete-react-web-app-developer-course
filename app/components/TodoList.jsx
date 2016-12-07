@@ -8,7 +8,7 @@ var TodoList = React.createClass({
 
         // render a list using .map and arrow function
         var renderTodoList = () => {
-            return todos.map((todo) => <Todo key={todo.id} onToggleTodo={this.props.onToggleTodo} {...todo}/>);
+            return todos.map((todo) => <Todo key={todo.id} handleToggle={this.props.handleToggle} {...todo}/>);
             // key property: help track and identify the element
             //... spread out the 'todo' prop
         };
