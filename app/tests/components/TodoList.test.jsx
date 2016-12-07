@@ -21,5 +21,31 @@ describe('TodoList', () => {
         let todosComponents = TestUtils.scryRenderedComponentsWithType(todoList, Todo);
 
         expect(todosComponents.length).toBe(2);
-    })
+    });
+
+    it('should filter todos by showcompleted correctly', () => {
+        var todos = [{
+            id: 1,
+            text: 'Some text here',
+            completed: true
+        }, {
+            id: 2,
+            text: 'Other text here',
+            completed: false
+        }, {
+            id: 3,
+            text: 'Some text here',
+            completed: true
+        }];
+
+        it('should return all items if showCompleted is true', () => {
+            var filteredTodos = TodoAPI.filterTodos(todos, true, '');
+            expect(filteredTodos.length).toBe(3);
+        });
+
+        it('should return non-completed todos when showCompleted is false', () => {
+            var filteredTodos = TodoAPI.filterTodos(todos, false, '');
+            expect(filteredTodos.length).toBe(1);
+        });
+    });
 });
