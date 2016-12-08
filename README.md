@@ -10,4 +10,5 @@ Here I put some useful (maybe?) exercise projects about React courses, on Udemy.
 + Better boilerplate with scss, react-router, etc. [link](https://github.com/markselby9/React-courses/commit/31ec66ba02a2b5f53f482731acd1654512102a20)
 + TimerApp with Timer and Countdown components, with corresponding tests about each component using karma, react-test-utils. [link](https://github.com/markselby9/React-courses/commit/1f63607f9c663b4c0a5eb13ce99a415cae42f9b3)
 + Final boilerplate. [link](https://github.com/markselby9/React-courses/commit/8d43ccbb5fb0d813b1aff559001b66f3898bf21e)
++ A todo app with localstorage and moment.js timestamp. Skipped css in this part :) [link](https://github.com/markselby9/React-courses/commit/a34b03974f5f2b68e07e809fb0cef4a4ed881b32)
 
