@@ -8,6 +8,9 @@ var TodoList = React.createClass({
 
         // render a list using .map and arrow function
         var renderTodoList = () => {
+            if (todos.length===0){
+                return <div><p>Nothing to do yet!</p></div>
+            }
             return todos.map((todo) => <Todo key={todo.id} handleToggle={this.props.handleToggle} {...todo}/>);
             // key property: help track and identify the element
             //... spread out the 'todo' prop
