@@ -18,13 +18,13 @@ describe('TodoList', () => {
     it('should render one Todo component for each todo item', () => {
         var todos = [{
             id: 1,
-            text: 'Do something',
+            todoText: 'Do something',
             completed: false,
             completedAt: undefined,
             createdAt: 123
         }, {
             id: 2,
-            text: 'Check mail',
+            todoText: 'Check mail',
             completed: false,
             completedAt: undefined,
             createdAt: 123
