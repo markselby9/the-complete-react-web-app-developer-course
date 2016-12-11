@@ -24,4 +24,11 @@ export var toggleTodo = (id)=>{
         type: 'TOGGLE_TODO',
         id
     }
-}
+};
+
+export var addTodos = (todos) => {
+    return {
+        type: 'ADD_TODOS',
+        todos
+    }
+};
