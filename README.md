@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-Boilerplate React App
-=======
-# React-courses
-Here I put some useful (maybe?) exercise projects about React courses, on Udemy. All about fundamental React knowledge. [for my personal practice and boilerplate storage only]
+Here I put some useful (maybe?) exercise projects about React courses "the-complete-react-web-app-developer-course", on Udemy. All about fundamental React knowledge. [only for practice and boilerplate storage]
 
 
 ### Some commits
@@ -14,5 +10,4 @@ Here I put some useful (maybe?) exercise projects about React courses, on Udemy.
 + TimerApp with Timer and Countdown components, with corresponding tests about each component using karma, react-test-utils. [link](https://github.com/markselby9/React-courses/commit/1f63607f9c663b4c0a5eb13ce99a415cae42f9b3)
 + Final boilerplate. [link](https://github.com/markselby9/React-courses/commit/8d43ccbb5fb0d813b1aff559001b66f3898bf21e)
 + A todo app with localstorage and moment.js timestamp. Skipped css in this part :) [link](https://github.com/markselby9/React-courses/commit/a34b03974f5f2b68e07e809fb0cef4a4ed881b32)
-
->>>>>>> origin/master
++ Refactor todo app with Redux. [link](https://github.com/markselby9/React-courses/commit/be0d06f7a87a0594db81a77b16a9a6bbe8c8ed0b)
